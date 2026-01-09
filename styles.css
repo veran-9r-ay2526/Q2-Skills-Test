@@ -1,0 +1,94 @@
+body{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9e09a83b-d370-4734-92f3-7d23593a6757/O.B.+Montessori+Center+Sta.+Ana+Campus');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Gill Sans';
+    src: url(Gill Sans.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.custom-navbar {
+    padding: 20px 0;
+}
+.nav-link {
+    color: white;
+    font-size: 15px;
+    margin: 0 8px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.nav-link.active {
+    border-bottom: 2px solid #003f7d
+}
+.portal-btn {
+    background-color: #003f7d;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 40px;
+}
+.portal-btn:hover {
+    background-color: #002b57;
+    color: white;
+}
+.nav-item{
+    margin-left: 40px;
+    background-color: #003f7d;
+    border-radius: 40px;
+    padding: 10px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.nav-item:hover{
+    margin-left: 40px;
+    background-color: #fcda5e;
+    border-radius: 40px;
+    padding: 10px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.contact-form{
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color:gray;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+input[type="submit"] {
+    text-align: center;
+    background-color: #003f7d;
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+}
+.text-center{
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Gill Sans', sans-serif;
+}
+.me-3{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+.header-line {
+    height: 5px;
+    background-color: #003f7d;
+}
+.text1{
+    font-size: 28px;
+    margin: 0;
+}
+.text2{
+    font-size: 28px;
+    margin: 0;
+}
